@@ -132,7 +132,7 @@ const showCurrentDateOption = {
   weekday: 'long',
 };
 const currentDateFormate = new Intl.DateTimeFormat(
-  'en-US',
+  'es-ES',
   showCurrentDateOption
 ).format(currshowDate);
 todayShowDate.textContent = currentDateFormate;
